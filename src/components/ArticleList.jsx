@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const response = await fetch("http://localhost/esercizio/wp-json/wp/v2/pages/");
+        const response = await fetch("http://localhost/esercizio/wp-json/wp/v2/posts/");
 
 
         if (!response.ok) {
