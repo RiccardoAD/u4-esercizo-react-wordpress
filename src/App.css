@@ -44,6 +44,8 @@ input:focus, textarea:focus, select:focus {
 
 
 /************ Navbar Css ************/
+
+
 nav.navbar {
   padding: 18px 0;
   width: 100%;
@@ -51,7 +53,7 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 5%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -149,3 +151,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+.card-body {
+  height: 200px;
+}
+.card {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+.custom-card {
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
